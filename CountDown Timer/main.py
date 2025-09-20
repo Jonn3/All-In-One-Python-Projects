@@ -20,7 +20,7 @@ class Application(Frame):
         self.time_var = StringVar()
         self.input_time = tk.Entry(self, width=25, font=('Calibri',12), textvariable = self.time_var)
         # Adding placeholder
-        self.input_time.insert(0, "Enter Time in seconds")
+        self.input_time.insert(0, "Enter the time in seconds")
         self.input_time.pack(padx=10,pady=(30,10))
         #using bind method
         self.input_time.bind("<Button-1>", self.enter)
