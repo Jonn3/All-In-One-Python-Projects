@@ -29,7 +29,7 @@ def img_to_ascii(image):
 if __name__ == "__main__":
 
     if len(sys.argv) < 2:
-        print("Image Path not specified : Using sample_image.png\n")
+        print("This Image Path is not specified : Using sample_image.png\n")
         image_path = "sample_image.png"
 
     if len(sys.argv) == 2:
