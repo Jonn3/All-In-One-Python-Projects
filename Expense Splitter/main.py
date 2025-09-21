@@ -17,7 +17,7 @@ def main() -> None:
         total_amount: float = float(input('Enter the total amount of the expense: '))
         
         # Input for number of people
-        number_of_people: int = int(input('Enter the number of people sharing the expense: '))
+        number_of_people: int = int(input('Enter the number of people sharing expense: '))
         
         # Call the function to calculate the split with currency set to rupees
         calculate_split(total_amount, number_of_people, currency="₹")
