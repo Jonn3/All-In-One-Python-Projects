@@ -2,7 +2,7 @@ import cv2
 import pysrt
 
 # Load the input video
-input_file = input("Enter the YouTube video link: ")
+input_file = input("Enter YouTube video link: ")
 cap = cv2.VideoCapture(input_file)
 
 # Set the start and end times for each short video clip
