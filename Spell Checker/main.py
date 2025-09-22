@@ -2,7 +2,7 @@ from textblob import TextBlob
 
 t = 1
 while t:
-    a = input("Enter the word to be checked:- ")
+    a = input("Enter word to be checked:- ")
     print("Original text: "+str(a))
 
     b = TextBlob(a)
