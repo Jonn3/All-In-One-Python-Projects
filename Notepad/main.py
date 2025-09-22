@@ -14,7 +14,7 @@ def save_file():
     open_file.close()
 
 def clear():
-    messagebox.showinfo("Cleared", "Cleared all contents !")
+    messagebox.showinfo("Cleared", "All Contents are Cleard !")
     entry.delete(1.0, END)
 
 def open_file():
